@@ -1,11 +1,13 @@
 // Write your solution in this file!
-let burgers = [`Hamburger`, `Cheeseburger`];
-let featuredDrink = `Strawberry milkshake`;
+const burgers = [`Hamburger`, `Cheeseburger`];
+let featuredDrink = `Strawberry Milkshake`;
 
 function addBurger() {
   let newBurger = "flatBurger";
   burgers.push(newBurger);
 }
+
+addBurger();
 
 if (true) {
   let anotherBurger = `Maple Bacon Burger`;
@@ -15,3 +17,5 @@ if (true) {
 function changeFeaturedDrink() {
   let featuredDrink = `The JavaShake`;
 }
+
+changeFeaturedDrink();
