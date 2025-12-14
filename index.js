@@ -15,7 +15,7 @@ if (true) {
 }
 
 function changeFeaturedDrink() {
-  let featuredDrink = `The JavaShake`;
+  featuredDrink = `The JavaShake`;
 }
 
 changeFeaturedDrink();
