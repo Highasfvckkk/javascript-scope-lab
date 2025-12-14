@@ -3,15 +3,15 @@ const burgers = [`Hamburger`, `Cheeseburger`];
 let featuredDrink = `Strawberry Milkshake`;
 
 function addBurger() {
-  let newBurger = "flatBurger";
+  const newBurger = "FlatBurger";
   burgers.push(newBurger);
 }
 
 addBurger();
 
 if (true) {
-  let anotherBurger = `Maple Bacon Burger`;
-  burgers.push(anotherBurger);
+  let anotherNewBurger = `Maple Bacon Burger`;
+  burgers.push(anotherNewBurger);
 }
 
 function changeFeaturedDrink() {
@@ -19,3 +19,5 @@ function changeFeaturedDrink() {
 }
 
 changeFeaturedDrink();
+
+console.log(burgers);
