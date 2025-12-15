@@ -3,7 +3,7 @@ const burgers = [`Hamburger`, `Cheeseburger`];
 let featuredDrink = `Strawberry Milkshake`;
 
 function addBurger() {
-  const newBurger = "FlatBurger";
+  const newBurger = "Flatburger";
   burgers.push(newBurger);
 }
 
